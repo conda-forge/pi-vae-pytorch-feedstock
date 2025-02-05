@@ -7,11 +7,13 @@ Home: https://github.com/mmcinnestaylor/pi-vae-pytorch
 
 Package license: MIT
 
-Summary: A Pytorch implementation of Poisson Identifiable VAE (pi-VAE), a variational auto encoder used to construct latent variable models of neural activity while simultaneously modeling the relation between the latent and task variables.
+Summary: A Pytorch implementation of Poisson Identifiable Variational Autoencoder (pi-VAE)
 
 Development: https://github.com/mmcinnestaylor/pi-vae-pytorch
 
 Documentation: https://mmcinnestaylor.github.io/pi-vae-pytorch
+
+Poisson Identifiable VAE (pi-VAE) is used to construct latent variable models of neural activity while simultaneously modeling the relation between the latent and task variables (non-neural variables, e.g. sensory, motor, and other externally observable states).
 
 Current build status
 ====================
