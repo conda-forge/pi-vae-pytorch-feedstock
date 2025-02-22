@@ -1,5 +1,5 @@
 {% set name = "pi-vae-pytorch" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pi_vae_pytorch-{{ version }}.tar.gz
-  sha256: 77a937068dea6e421c9542aa82916591f973f9ba924c98909c1d8bc22725cfa5
+  sha256: ae98549cea1b16aaa85f0cbd70fa016e73e6f41f356f8a76ef66df6fb2311bb9
 
 build:
   noarch: python
